@@ -1,0 +1,8 @@
+{
+  "name": "radar-demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node -e \"const {greet}=require('./app.js'); if(!greet('t').includes('t')) process.exit(1); console.log('1 test passed')\""
+  }
+}
