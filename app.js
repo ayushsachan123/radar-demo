@@ -5,6 +5,7 @@ const APP_NAME = 'radar-demo';
 const MAX_RETRIES = 3;
 const TIMEOUT_MS = 5000;
 const DEFAULT_PORT = 3000;
+const TAGLINE = 'radar online';
 const LOG_LEVEL = 'info';
 const MAX_CONNECTIONS = 100;
 const SESSION_TTL_MS = 30 * 60 * 1000;
