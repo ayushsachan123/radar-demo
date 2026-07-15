@@ -1,5 +1,5 @@
 // radar-demo: tiny app for testing the conflict radar
-const VERSION = '9.9.9';
+const VERSION = '1.0.0-radar-conflict-demo';
 const GREETING = 'Hello from queue test';
 const APP_NAME = 'radar-demo';
 const MAX_RETRIES = 3;
