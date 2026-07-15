@@ -10,6 +10,10 @@ const LOG_LEVEL = 'info';
 const MAX_CONNECTIONS = 100;
 const SESSION_TTL_MS = 30 * 60 * 1000;
 const API_BASE_URL = 'http://localhost:3000/api';
+const ENV = 'development';
+const DEBUG = false;
+const MAX_PAYLOAD_BYTES = 1024 * 1024;
+const HEARTBEAT_INTERVAL_MS = 10000;
 
 // Returns a greeting string combining the global message, name, and version
 function greet(name) {
