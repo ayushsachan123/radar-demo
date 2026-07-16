@@ -18,6 +18,10 @@ const MAX_LOG_SIZE_BYTES = 10 * 1024 * 1024;
 const CACHE_TTL_MS = 60000;
 const ALLOWED_ORIGINS = ['http://localhost:3000'];
 const REQUEST_ID_HEADER = 'x-request-id';
+const RATE_LIMIT_RPM = 60;
+const DB_POOL_SIZE = 10;
+const SHUTDOWN_GRACE_MS = 5000;
+const STATIC_DIR = 'public';
 
 // Returns a greeting string combining the global message, name, and version
 function greet(name) {
