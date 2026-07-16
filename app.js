@@ -22,6 +22,10 @@ const RATE_LIMIT_RPM = 60;
 const DB_POOL_SIZE = 10;
 const SHUTDOWN_GRACE_MS = 5000;
 const STATIC_DIR = 'public';
+const COOKIE_SECRET = 'radar-secret-key';
+const COMPRESSION_LEVEL = 6;
+const MAX_UPLOAD_SIZE_MB = 50;
+const HEALTH_CHECK_PATH = '/health';
 
 // Returns a greeting string combining the global message, name, and version
 function greet(name) {
