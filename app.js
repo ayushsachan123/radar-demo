@@ -26,6 +26,10 @@ const COOKIE_SECRET = 'radar-secret-key';
 const COMPRESSION_LEVEL = 6;
 const MAX_UPLOAD_SIZE_MB = 50;
 const HEALTH_CHECK_PATH = '/health';
+const JWT_EXPIRY_MS = 24 * 60 * 60 * 1000;
+const MAX_CONCURRENT_REQUESTS = 50;
+const RETRY_DELAY_MS = 1000;
+const METRICS_FLUSH_INTERVAL_MS = 15000;
 
 // Returns a greeting string combining the global message, name, and version
 function greet(name) {
